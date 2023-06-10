@@ -1,0 +1,42 @@
+.root {
+  width: 600px;
+  margin: auto;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.item {
+  margin: 5px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.item .key {
+  width: 100px;
+  font-size: 26px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.item .key input {
+  font-size: 26px;
+  max-width: 90px;
+}
+
+.item .value {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.item .value textarea {
+  min-width: 200px;
+  border: solid 1px #999;
+  border-radius: 5px;
+}
+
+.item .controls {
+  margin-left: 10px;
+}
